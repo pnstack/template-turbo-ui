@@ -40,9 +40,7 @@
     "check-types": "tsc --noEmit true",
     "ci": "pnpm lint && pnpm test --watch=false",
     "test": "vitest --config ./vitest.config.ts",
-    "release": "pnpm ci && pnpm build && pnpm publish",
-    "storybook": "storybook dev -p 6006",
-    "storybook:build": "storybook build"
+    "release": "pnpm ci && pnpm build && pnpm publish"
   },
   "peerDependencies": {
     "clsx": "2.x",
@@ -50,7 +48,6 @@
     "react-dom": "19.x"
   },
   "devDependencies": {
-    "@chromatic-com/storybook": "^3.2.3",
     "@repo/eslint-config": "workspace:*",
     "@repo/tailwind-config": "workspace:*",
     "@repo/prettier-config": "workspace:*",
@@ -60,15 +57,6 @@
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^12.1.2",
     "@rollup/plugin-url": "^8.0.2",
-    "@storybook/addon-docs": "^8.4.7",
-    "@storybook/addon-essentials": "^8.4.7",
-    "@storybook/addon-interactions": "^8.4.7",
-    "@storybook/addon-links": "^8.4.7",
-    "@storybook/addon-onboarding": "^8.4.7",
-    "@storybook/blocks": "^8.4.7",
-    "@storybook/react": "^8.4.7",
-    "@storybook/react-vite": "^8.4.7",
-    "@storybook/test": "^8.4.7",
     "@svgr/rollup": "^8.1.0",
     "@tailwindcss/forms": "^0.5.10",
     "@testing-library/dom": "^10.4.0",
@@ -93,7 +81,6 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "sass": "^1.83.0",
-    "storybook": "^8.4.7",
     "stylelint": "^16.12.0",
     "stylelint-prettier": "^5.0.2",
     "stylelint-scss": "^6.10.0",
