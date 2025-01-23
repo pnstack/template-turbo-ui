@@ -1,5 +1,5 @@
 {
-  "name": "@pnstack/ui",
+  "name": "@template-turbo-ui/ui",
   "version": "1.0.0",
   "description": "Boilerplate for writing React Libraries bundled with Rollup.js to commonJs and ES6 Modules and Storybook",
   "license": "MIT",
@@ -47,10 +47,10 @@
     "react-dom": "19.x"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/prettier-config": "workspace:*",
-    "@repo/tailwind-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@template-turbo-ui/eslint-config": "workspace:*",
+    "@template-turbo-ui/prettier-config": "workspace:*",
+    "@template-turbo-ui/tailwind-config": "workspace:*",
+    "@template-turbo-ui/typescript-config": "workspace:*",
     "@rollup/plugin-commonjs": "^28.0.2",
     "@rollup/plugin-node-resolve": "^16.0.0",
     "@rollup/plugin-terser": "^0.4.4",

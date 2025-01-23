@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ["@repo/eslint-config/react"],
+  extends: ["@template-turbo-ui/eslint-config/react"],
   parserOptions: {
     project: "./tsconfig.json",
   },

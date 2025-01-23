@@ -1,6 +1,6 @@
 {
   "$schema": "http://json.schemastore.org/prettierrc",
-  "extends": ["@repo/prettier-config"],
+  "extends": ["@template-turbo-ui/prettier-config"],
   "overrides": [
     {
       "files": ["*.jsx", "*.tsx"],

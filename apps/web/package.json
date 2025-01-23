@@ -10,16 +10,16 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@pnstack/ui": "workspace:*",
+    "@template-turbo-ui/ui": "workspace:*",
     "next": "^15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^15.1.6",
-    "@repo/eslint-config": "workspace:*",
-    "@repo/tailwind-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@template-turbo-ui/eslint-config": "workspace:*",
+    "@template-turbo-ui/tailwind-config": "workspace:*",
+    "@template-turbo-ui/typescript-config": "workspace:*",
     "@types/node": "^22.10.7",
     "@types/react": "^19.0.7",
     "@types/react-dom": "^19.0.3",
