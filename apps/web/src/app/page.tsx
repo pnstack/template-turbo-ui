@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Card } from "@repo/ui/card";
+import { type JSX } from "react";
 
 function Gradient({
   conic,
@@ -14,7 +15,7 @@ function Gradient({
     <span
       className={`absolute mix-blend-normal will-change-[filter] rounded-[100%] ${
         small ? "blur-[32px]" : "blur-[75px]"
-      } ${conic ? "bg-glow-conic" : ""} ${className}`}
+      } ${conic ? "bg-glow-conic" : ""} ${className ?? ""}`}
     />
   );
 }
