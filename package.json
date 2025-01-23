@@ -17,5 +17,5 @@
   "engines": {
     "node": ">=18"
   },
-  "name": "template-turbo-ui"
+  "private": true
 }
