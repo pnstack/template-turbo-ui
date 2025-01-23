@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { Button } from "@repo/ui";
+import { Button } from "@pnstack/ui";
 import { type JSX } from "react";
 
 function Gradient({
