@@ -1,5 +1,5 @@
 {
-  "extends": "@template-turbo-ui/typescript-config/nextjs.json",
+  "extends": "@pnstack/typescript-config/nextjs.json",
   "compilerOptions": {
     "plugins": [{ "name": "next" }]
   },

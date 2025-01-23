@@ -19,7 +19,7 @@ importers:
 
   apps/web:
     dependencies:
-      "@template-turbo-ui/ui":
+      "@pnstack/ui":
         specifier: workspace:*
         version: link:../../packages/ui
       next:
@@ -35,13 +35,13 @@ importers:
       "@next/eslint-plugin-next":
         specifier: ^15.1.6
         version: 15.1.6
-      "@template-turbo-ui/eslint-config":
+      "@pnstack/eslint-config":
         specifier: workspace:*
         version: link:../../packages/config-eslint
-      "@template-turbo-ui/tailwind-config":
+      "@pnstack/tailwind-config":
         specifier: workspace:*
         version: link:../../packages/config-tailwind
-      "@template-turbo-ui/typescript-config":
+      "@pnstack/typescript-config":
         specifier: workspace:*
         version: link:../../packages/config-typescript
       "@types/node":
@@ -79,7 +79,7 @@ importers:
 
   packages/config-tailwind:
     devDependencies:
-      "@template-turbo-ui/typescript-config":
+      "@pnstack/typescript-config":
         specifier: workspace:*
         version: link:../config-typescript
       tailwindcss:
@@ -90,16 +90,16 @@ importers:
 
   packages/ui:
     devDependencies:
-      "@template-turbo-ui/eslint-config":
+      "@pnstack/eslint-config":
         specifier: workspace:*
         version: link:../config-eslint
-      "@template-turbo-ui/prettier-config":
+      "@pnstack/prettier-config":
         specifier: workspace:*
         version: link:../config-prettier
-      "@template-turbo-ui/tailwind-config":
+      "@pnstack/tailwind-config":
         specifier: workspace:*
         version: link:../config-tailwind
-      "@template-turbo-ui/typescript-config":
+      "@pnstack/typescript-config":
         specifier: workspace:*
         version: link:../config-typescript
       "@rollup/plugin-commonjs":
@@ -222,13 +222,13 @@ importers:
 
   packages/utils:
     devDependencies:
-      "@template-turbo-ui/eslint-config":
+      "@pnstack/eslint-config":
         specifier: workspace:*
         version: link:../config-eslint
-      "@template-turbo-ui/prettier-config":
+      "@pnstack/prettier-config":
         specifier: workspace:*
         version: link:../config-prettier
-      "@template-turbo-ui/typescript-config":
+      "@pnstack/typescript-config":
         specifier: workspace:*
         version: link:../config-typescript
       "@rollup/plugin-commonjs":

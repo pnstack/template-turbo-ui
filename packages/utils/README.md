@@ -1,17 +1,17 @@
-# @template-turbo-ui/utils
+# @pnstack/utils
 
 A collection of utility functions for PNStack applications.
 
 ## Installation
 
 ```bash
-pnpm add @template-turbo-ui/utils
+pnpm add @pnstack/utils
 ```
 
 ## Usage
 
 ```typescript
-import { get, isEmpty, delay, randomString } from "@template-turbo-ui/utils";
+import { get, isEmpty, delay, randomString } from "@pnstack/utils";
 
 // Access nested object properties safely
 const obj = { user: { profile: { name: "John" } } };

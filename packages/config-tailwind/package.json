@@ -1,12 +1,12 @@
 {
-  "name": "@template-turbo-ui/tailwind-config",
+  "name": "@pnstack/tailwind-config",
   "version": "1.0.0",
   "private": true,
   "exports": {
     ".": "./tailwind.config.ts"
   },
   "devDependencies": {
-    "@template-turbo-ui/typescript-config": "workspace:*",
+    "@pnstack/typescript-config": "workspace:*",
     "tailwindcss": "^3.4.17"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@template-turbo-ui/eslint-config",
+  "name": "@pnstack/eslint-config",
   "version": "1.0.0",
   "private": true,
   "devDependencies": {

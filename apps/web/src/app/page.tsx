@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { Button } from "@template-turbo-ui/ui";
+import { Button } from "@pnstack/ui";
 import { type JSX } from "react";
 
 function Gradient({

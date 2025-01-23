@@ -1,5 +1,5 @@
 {
-  "extends": "@template-turbo-ui/typescript-config/react-library.json",
+  "extends": "@pnstack/typescript-config/react-library.json",
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {

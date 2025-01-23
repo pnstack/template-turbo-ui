@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["@template-turbo-ui/eslint-config/next.js"],
+  extends: ["@pnstack/eslint-config/next.js"],
 };

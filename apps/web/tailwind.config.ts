@@ -1,7 +1,7 @@
 // tailwind config is required for editor support
 
 import type { Config } from "tailwindcss";
-import sharedConfig from "@template-turbo-ui/tailwind-config";
+import sharedConfig from "@pnstack/tailwind-config";
 
 const config: Pick<Config, "content" | "presets"> = {
   content: ["./src/app/**/*.tsx"],

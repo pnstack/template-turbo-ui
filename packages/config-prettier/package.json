@@ -1,5 +1,5 @@
 {
-  "name": "@template-turbo-ui/prettier-config",
+  "name": "@pnstack/prettier-config",
   "version": "1.0.0",
   "private": true,
   "main": "index.json",

@@ -1,5 +1,5 @@
 {
-  "name": "@template-turbo-ui/utils",
+  "name": "@pnstack/utils",
   "version": "1.0.0",
   "description": "Utility functions for PNStack applications",
   "license": "MIT",
@@ -38,9 +38,9 @@
     "release": "pnpm ci && pnpm build && pnpm publish"
   },
   "devDependencies": {
-    "@template-turbo-ui/eslint-config": "workspace:*",
-    "@template-turbo-ui/prettier-config": "workspace:*",
-    "@template-turbo-ui/typescript-config": "workspace:*",
+    "@pnstack/eslint-config": "workspace:*",
+    "@pnstack/prettier-config": "workspace:*",
+    "@pnstack/typescript-config": "workspace:*",
     "@rollup/plugin-commonjs": "^28.0.2",
     "@rollup/plugin-node-resolve": "^16.0.0",
     "@rollup/plugin-terser": "^0.4.4",
