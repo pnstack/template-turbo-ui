@@ -1,6 +1,6 @@
 {
   "name": "@pnstack/ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Boilerplate for writing React Libraries bundled with Rollup.js to commonJs and ES6 Modules and Storybook",
   "license": "MIT",
   "repository": {
