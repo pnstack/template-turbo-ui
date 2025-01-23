@@ -71,10 +71,8 @@ jobs:
           git config --global user.email "actions@github.com"
 
       - name: Publish to GitHub Packages
-        run: |
-          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > .npmrc
-          pnpm -r publish --no-git-checks --access public
+        run: pnpm -r publish --no-git-checks --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_CONFIG_REGISTRY: "https://npm.pkg.github.com"
+          NPM_CONFIG_REGISTRY: "https://npm.pkg.github.com/pnstack"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
