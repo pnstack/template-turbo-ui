@@ -1,19 +1,9 @@
 {
-  "singleQuote": true,
-  "bracketSpacing": true,
-  "arrowParens": "always",
-  "printWidth": 140,
-  "quoteProps": "preserve",
-  "trailingComma": "all",
+  "$schema": "http://json.schemastore.org/prettierrc",
+  "extends": ["@repo/prettier-config"],
   "overrides": [
     {
-      "files": "*.jsx",
-      "options": {
-        "printWidth": 120
-      }
-    },
-    {
-      "files": "*.tsx",
+      "files": ["*.jsx", "*.tsx"],
       "options": {
         "printWidth": 120
       }
