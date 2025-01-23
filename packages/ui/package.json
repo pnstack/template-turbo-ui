@@ -1,8 +1,16 @@
 {
-  "name": "@repo/ui",
+  "name": "@pnstack/ui",
   "version": "1.0.0",
   "description": "Boilerplate for writing React Libraries bundled with Rollup.js to commonJs and ES6 Modules and Storybook",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnstack/template-turbo-ui.git",
+    "directory": "packages/ui"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
