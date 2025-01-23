@@ -1,0 +1,58 @@
+{
+  "name": "@pnstack/utils",
+  "version": "1.0.0",
+  "description": "Utility functions for PNStack applications",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnstack/template-turbo-ui.git",
+    "directory": "packages/utils"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development BABEL_ENV=development rollup -c --watch",
+    "build": "rimraf dist && NODE_ENV=production BABEL_ENV=production rollup -c",
+    "lint": "pnpm check-types && pnpm eslint",
+    "lint:fix": "pnpm eslint:fix",
+    "eslint": "eslint . --report-unused-disable-directives --max-warnings 0",
+    "eslint:fix": "eslint . --fix",
+    "check-types": "tsc --noEmit true",
+    "test": "vitest --config ./vitest.config.ts",
+    "ci": "pnpm lint && pnpm test --watch=false",
+    "release": "pnpm ci && pnpm build && pnpm publish"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/prettier-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/node": "^22.10.2",
+    "rimraf": "^6.0.1",
+    "rollup": "^4.29.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.8.1",
+    "typescript": "5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "packageManager": "pnpm@8.0.0"
+}
