@@ -10,6 +10,8 @@ import external from 'rollup-plugin-peer-deps-external';
 import postcss from 'rollup-plugin-postcss';
 import dts from 'rollup-plugin-dts';
 import typescriptEngine from 'typescript';
+import tailwindcss from 'tailwindcss';
+import autoprefixer from 'autoprefixer';
 
 const packageJson = JSON.parse(readFileSync('./package.json'));
 
@@ -31,8 +33,12 @@ export default defineConfig(
       svgr(),
       url(),
       postcss({
-        plugins: [],
+        plugins: [
+          tailwindcss(),
+          autoprefixer()
+        ],
         minimize: true,
+        extract: 'styles.css',
       }),
       typescript({
         tsconfig: './tsconfig.json',
